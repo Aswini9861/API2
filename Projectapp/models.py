@@ -5,6 +5,7 @@ from django.contrib.auth.models import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin,BaseUserManager
 
 
+
 class UserProfileManager(BaseUserManager):
     '''manager for user profile'''
 
